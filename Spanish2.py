@@ -51,7 +51,7 @@ CD.append(ID)
 #you can randomize this as well
 #this is how we get the info
 
-maxq = 74
+maxq = 10
 ch= random.randint(1,len(CD)-1)
 questions = random.sample(range(0,len(CD[ch])),maxq)
 
